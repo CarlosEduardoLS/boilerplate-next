@@ -1,4 +1,3 @@
-import { SlowBuffer } from 'buffer'
 import * as S from './styles'
 
 const Main = () => (
