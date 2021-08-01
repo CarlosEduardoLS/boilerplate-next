@@ -6,12 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint src --max-warnings=0",
+    "lint": "./node_modules/.bin/eslint src --max-warnings=0",
     "prepare": "husky install"
   },
   "lint-staged": {
     "src/**/*": [
-      "yarn lint --fix"
+      "yarn lint"
     ]
   },
   "dependencies": {
